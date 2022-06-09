@@ -1,0 +1,113 @@
+body{
+    
+    margin:0;
+    padding: 0;
+    
+}
+ header img{
+    width:100%;
+    display: block;
+}
+
+.nav{
+
+    padding:20px 0;
+    
+    
+}
+.nav a {
+background-color: navy;
+padding: 10px 20px;
+}
+.nav a:hover{
+    background-color: red;
+    transform: rotate(20deg);
+    transition: 1s ease-in all;
+}
+.nav li , .nav a{
+    list-style: none;
+    
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    
+  
+}
+
+.main .right {
+    width:80%;
+    display: flex;
+    background-image: url(background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    flex-direction: column;
+}
+.main .left{
+    width: 20%;
+    padding: 30px;
+    align-items: center;
+}
+
+
+.main .right .description{
+    direction: rtl;
+    box-sizing: border-box;
+    padding:30px;
+    
+}
+.main .right .section div{
+    width: 100%;
+}
+.main .right .img{
+    padding:10px;
+    
+}
+.main .right .img img{
+    width: 100%;
+    
+}
+.main .right .description h2{
+    color:navy;
+    font-size: 40px;
+}
+.main .right .description p{
+    line-height: 30px;
+    font-size: 20px;
+    color: black;
+    
+}
+
+.nav{
+    background: url(head.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    
+    background: url('background.jpg') cover no-repeat;
+
+}
+.main .left img{
+    width: 100%;
+    margin-top:35px;
+}
+.main .left{
+    display: flex;
+    flex-direction: column;
+    border-right: #df731a 2px solid;
+    background-color: navy;
+}
+.main .left h3{
+    color: navy;
+    direction: rtl;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+}
+
+.section{
+    display: flex;
+}
